@@ -300,6 +300,12 @@
   }
 }
 
+@media (max-width: 420px) {
+  .wrap {
+    background: url(../img/bg_sm.webp) center center/cover repeat;
+  }
+}
+
 @media (max-width: 400px) {
   .info_block {
     width: 200px;
