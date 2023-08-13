@@ -1,0 +1,315 @@
+@media (max-width: 1730px) {
+  .donate__item {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1440px) {
+  .sidebar {
+    min-width: 340px;
+  }
+
+  .wf {
+    width: 450px;
+    height: 450px;
+  }
+
+  .donate__item_title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1390px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .donate {
+    position: fixed;
+    top: 70px;
+    margin-top: 0;
+    height: calc(100vh - 70px);
+    padding-bottom: 80px;
+  }
+
+  .sidebar {
+    height: 100%;
+    order: 2;
+    width: 100%;
+    min-width: auto;
+    overflow-y: visible;
+    padding-bottom: 80px;
+
+    &::before {
+      content: "Магазин";
+      display: block;
+      color: #fff;
+      font-size: 24px;
+      font-weight: 900;
+      margin-bottom: 25px;
+    }
+  }
+
+  .shop {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 15px;
+    grid-auto-flow: row;
+  }
+}
+
+@media (max-width: 1050px) {
+
+  .rotate_count,
+  .game_info {
+    top: 35px;
+  }
+
+  .game_info__title {
+    font-size: 12px;
+  }
+
+  .game_info__icon img {
+    max-width: 32px;
+  }
+
+  .mute_btn {
+    filter: drop-shadow(0 0 3px #1f1f1f);
+  }
+
+  .donate__item {
+    flex-direction: column;
+  }
+
+  .donate__item_controls {
+    flex-direction: row;
+    width: 100%;
+    border: none;
+  }
+}
+
+@media (max-width: 950px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .rotate_count,
+  .history {
+    left: 5%;
+  }
+
+  .mute_btn {
+    right: 5%;
+  }
+
+  .info_block {
+    width: 220px;
+  }
+
+  .game_info {
+    display: none;
+  }
+
+  .history_info {
+    top: 35px;
+  }
+
+  .tooltip.active {
+    transform: translate(-50%, 135%);
+  }
+}
+
+@media (max-width: 768px) {
+  .rotate_count {
+    column-gap: 10px;
+  }
+
+  .info_block {
+    background: rgba(41, 71, 38, .8);
+  }
+}
+
+@media (max-width: 750px) {
+  .donate__item_wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .donate__item_info {
+    align-items: center;
+    text-align: center;
+  }
+
+  .donate__item_info_wrap {
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+    margin-top: 15px;
+  }
+
+  .donate__item_controls {
+    padding-bottom: 25px;
+  }
+}
+
+@media (max-width: 560px) {
+  .rotate_count__title {
+    display: none;
+  }
+
+  .wf {
+    width: 400px;
+    height: 400px;
+  }
+
+  .wf__segment_label {
+    font-size: 24px;
+  }
+
+  .wf .win {
+    .wf__segment_text {
+      animation: winTextMd .4s cubic-bezier(0.65, 0.05, 0.36, 1) forwards;
+    }
+  }
+
+  .wf__segment_spinner .wf__segment_text img {
+    margin-top: -5%;
+  }
+
+  @keyframes winTextMd {
+    0% {
+      font-size: 24px;
+    }
+
+    50% {
+      font-size: 28px;
+    }
+
+    100% {
+      font-size: 24px;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .donate__item_controls {
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: center;
+
+    .btn_2 {
+      max-width: 100%;
+      height: 46px;
+    }
+  }
+}
+
+@media (max-width: 490px) {
+  .donate__item_desc::after {
+    transform: translate(-50%, -50%);
+  }
+
+  .donate__item_info_wrap {
+    justify-content: center;
+  }
+
+  .donate__item_subtitle {
+    display: none;
+  }
+
+  .wf {
+    height: 350px;
+    width: 350px;
+  }
+
+  .wf__segment_label {
+    font-size: 20px;
+  }
+
+  .wf .win {
+    .wf__segment_text {
+      animation: winTextSm .4s cubic-bezier(0.65, 0.05, 0.36, 1) forwards;
+    }
+  }
+
+  .sidebar {
+    padding-bottom: 80px;
+  }
+
+  @keyframes winTextSm {
+    0% {
+      font-size: 20px;
+    }
+
+    50% {
+      font-size: 24px;
+    }
+
+    100% {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 430px) {
+  .level_title {
+    display: none;
+  }
+
+  .wf {
+    width: 300px;
+    height: 300px;
+  }
+
+  .wf__segment_label {
+    font-size: 18px;
+  }
+
+  .wf__segment_text {
+    margin-top: -30px;
+  }
+
+  .wf__arrow {
+    width: 45px;
+    height: 18px;
+  }
+
+  .wf .win {
+    .wf__segment_text {
+      animation: winTextExtraSm .4s cubic-bezier(0.65, 0.05, 0.36, 1) forwards;
+    }
+  }
+
+  .tooltip {
+    font-size: 14px;
+  }
+
+  @keyframes winTextExtraSm {
+    0% {
+      font-size: 18px;
+    }
+
+    50% {
+      font-size: 22px;
+    }
+
+    100% {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .info_block {
+    width: 200px;
+  }
+
+  .sidebar {
+    padding: 25px 15px 80px;
+  }
+
+  .shop {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+}

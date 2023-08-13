@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+
+    <link rel="stylesheet" href="./css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.min.css">
+
+    <title>TEMPLATE</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="header__info">
+                <div class="balance">
+                    <img src="./img/diamond.webp" data-diamond-1 alt="diamond">
+                    <span class="balance__count">0</span>
+                </div>
+
+                <button class="donate_btn">
+                    <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 37C28.9 37 37 28.9 37 19C37 9.1 28.9 1 19 1C9.1 1 1 9.1 1 19C1 28.9 9.1 37 19 37Z"
+                            stroke="#04D734" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M11.8 19H26.2" stroke="#04D734" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M19 26.1998V11.7998" stroke="#04D734" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </div>
+
+            <div class="level_wrap">
+                <div class="level_title">Сложность:</div>
+                <select class="level">
+                    <option value="1">Легко</option>
+                    <option value="2">Средне</option>
+                    <option value="3">Тяжело</option>
+                    <option value="4">Ультра</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="sidebar">
+            <div class="shop">
+                <div class="shop__item">
+                    <div class="shop__item_preview">
+                        <img src="./img/items/p2000-eau-forte-big.webp" alt="gun">
+                    </div>
+                    <div class="shop__item_header">
+                        <div class="shop__item_price">
+                            <span class="shop__item_price_title">Цена:</span>
+                            <span class="shop__item_price_value">10 000</span>
+                            <img src="./img/diamond.webp" alt="diamond">
+                        </div>
+                        <button class="shop__item_btn btn">Купить</button>
+                    </div>
+                </div>
+                <!-- =============== -->
+                <div class="shop__item">
+                    <div class="shop__item_preview">
+                        <img src="./img/items/mac-10-pilote-neon-big.webp" alt="gun">
+                    </div>
+                    <div class="shop__item_header">
+                        <div class="shop__item_price">
+                            <span class="shop__item_price_title">Цена:</span>
+                            <span class="shop__item_price_value">15 300</span>
+                            <img src="./img/diamond.webp" alt="diamond">
+                        </div>
+                        <button class="shop__item_btn btn">Купить</button>
+                    </div>
+                </div>
+                <!-- =============== -->
+                <div class="shop__item">
+                    <div class="shop__item_preview">
+                        <img src="./img/items/xm1014-tranquillite-big.webp" alt="gun">
+                    </div>
+                    <div class="shop__item_header">
+                        <div class="shop__item_price">
+                            <span class="shop__item_price_title">Цена:</span>
+                            <span class="shop__item_price_value">18 500</span>
+                            <img src="./img/diamond.webp" alt="diamond">
+                        </div>
+                        <button class="shop__item_btn btn">Купить</button>
+                    </div>
+                </div>
+                <!-- =============== -->
+                <div class="shop__item">
+                    <div class="shop__item_preview">
+                        <img src="./img/items/ak-47-pilote-neon-big.webp" alt="gun">
+                    </div>
+                    <div class="shop__item_header">
+                        <div class="shop__item_price">
+                            <span class="shop__item_price_title">Цена:</span>
+                            <span class="shop__item_price_value">45 000</span>
+                            <img src="./img/diamond.webp" alt="diamond">
+                        </div>
+                        <button class="shop__item_btn btn">Купить</button>
+                    </div>
+                </div>
+                <!-- =============== -->
+                <div class="shop__item">
+                    <div class="shop__item_preview">
+                        <img src="./img/items/awp-breche-de-confinement-big.webp" alt="gun">
+                    </div>
+                    <div class="shop__item_header">
+                        <div class="shop__item_price">
+                            <span class="shop__item_price_title">Цена:</span>
+                            <span class="shop__item_price_value">100 000</span>
+                            <img src="./img/diamond.webp" alt="diamond">
+                        </div>
+                        <button class="shop__item_btn btn">Купить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrap">
+            <div class="wf">
+                <div class="wf__arrow"></div>
+                <div class="wf__center"></div>
+                <div class="wf__container"></div>
+            </div>
+
+            <button class="btn start_btn">Играть</button>
+
+            <!-- ===================================== -->
+
+            <div class="finish_separator"></div>
+
+            <div class="rotate_count">
+                <img src="./img/rotate.svg" alt="rotate icon">
+                <div class="rotate_count__header">
+                    <span class="rotate_count__title">Осталось спинов:</span>
+                    <span class="rotate_count__value">10</span>
+                    <button class="donate_btn">
+                        <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M19 37C28.9 37 37 28.9 37 19C37 9.1 28.9 1 19 1C9.1 1 1 9.1 1 19C1 28.9 9.1 37 19 37Z"
+                                stroke="#04D734" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M11.8 19H26.2" stroke="#04D734" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M19 26.1998V11.7998" stroke="#04D734" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <!-- ============ -->
+            <div class="game_info info_block active">
+                <button class="game_info__handler info__handler">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <path d="m16 4-8 8 8 8" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" />
+                    </svg>
+                </button>
+                <!-- ========= -->
+                <div class="game_info__item">
+                    <div class="game_info__icon">
+                        <img src="./img/bomb.webp" alt="bomb">
+                    </div>
+                    <div class="game_info__title">Обнуляет баланс</div>
+                </div>
+
+                <div class="game_info__item">
+                    <div class="game_info__icon">
+                        <img src="./img/spinners.webp" alt="spinners">
+                    </div>
+                    <div class="game_info__title">Добавляет спины</div>
+                </div>
+            </div>
+            <!-- ============ -->
+            <div class="history_info info_block">
+                <button class="game_info__handler info__handler">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <path d="m16 4-8 8 8 8" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" />
+                    </svg>
+                </button>
+
+                <div class="history_info__box">
+                    <div class="history_info__box_title">История:</div>
+                    <div class="history_info__default">Пусто</div>
+                </div>
+            </div>
+            <!-- ============ -->
+            <div class="history">
+                <div class="history__btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z" />
+                    </svg>
+                </div>
+
+                <div class="history__msg">Пусто</div>
+            </div>
+            <!-- ============ -->
+            <div class="wf__end">
+                <div class="wf__end_content">
+                    <div class="wf__end_title">Спины закончились</div>
+                    <button class="btn_2 donate_btn">Магазин</button>
+                    <button class="btn end_btn">Начать заново</button>
+                </div>
+            </div>
+            <!-- ============ -->
+            <div class="donate">
+                <button class="btn donate__back_btn">Вернутся назад</button>
+
+                <div class="donate__items">
+                    <div class="donate__item">
+                        <div class="donate__item_wrap">
+                            <div class="donate__item_preview">
+                                <img src="./img/keys/light.webp" alt="keys">
+                            </div>
+                            <div class="donate__item_info">
+                                <div class="donate__item_title">Набор "Стартовый"</div>
+                                <div class="donate__item_info_wrap">
+                                    <div class="donate__item_subtitle">Содержит в себе:</div>
+                                    <div class="donate__item_desc">
+                                        <div class="donate__item_desc_block" title="Кристалы">
+                                            <img src="./img/diamond.webp" alt="diamond">
+                                            <span>20 000</span>
+                                        </div>
+                                        <div class="donate__item_desc_block" title="Спины">
+                                            <img src="./img/spinners.webp" alt="spinners">
+                                            <span>15</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="donate__item_controls">
+                            <div class="donate__item_price">
+                                <span class="donate__item_price_title">Цена:</span>
+                                <div class="donate__item_price_wrap">
+                                    <span>150</span>
+                                    <img src="./img/dollar.webp" alt="dollar">
+                                </div>
+                            </div>
+                            <button class="btn_2 donate__item_buy">Купить</button>
+                        </div>
+                    </div>
+                    <!-- =========== -->
+                    <div class="donate__item">
+                        <div class="donate__item_wrap">
+                            <div class="donate__item_preview">
+                                <img src="./img/keys/medium.webp" alt="keys">
+                            </div>
+                            <div class="donate__item_info">
+                                <div class="donate__item_title">Набор "Продвинутый"</div>
+                                <div class="donate__item_info_wrap">
+                                    <div class="donate__item_subtitle">Содержит в себе:</div>
+                                    <div class="donate__item_desc">
+                                        <div class="donate__item_desc_block" title="Кристалы">
+                                            <img src="./img/diamond.webp" alt="diamond">
+                                            <span>60 000</span>
+                                        </div>
+                                        <div class="donate__item_desc_block" title="Спины">
+                                            <img src="./img/spinners.webp" alt="spinners">
+                                            <span>25</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="donate__item_controls">
+                            <div class="donate__item_price">
+                                <span class="donate__item_price_title">Цена:</span>
+                                <div class="donate__item_price_wrap">
+                                    <span>250</span>
+                                    <img src="./img/dollar.webp" alt="dollar">
+                                </div>
+                            </div>
+                            <button class="btn_2 donate__item_buy">Купить</button>
+                        </div>
+                    </div>
+                    <!-- =========== -->
+                    <div class="donate__item">
+                        <div class="donate__item_wrap">
+                            <div class="donate__item_preview">
+                                <img src="./img/keys/hight.webp" alt="keys">
+                            </div>
+                            <div class="donate__item_info">
+                                <div class="donate__item_title">Набор "Люкс"</div>
+                                <div class="donate__item_info_wrap">
+                                    <div class="donate__item_subtitle">Содержит в себе:</div>
+                                    <div class="donate__item_desc">
+                                        <div class="donate__item_desc_block" title="Кристалы">
+                                            <img src="./img/diamond.webp" alt="diamond">
+                                            <span>120 000</span>
+                                        </div>
+                                        <div class="donate__item_desc_block" title="Спины">
+                                            <img src="./img/spinners.webp" alt="spinners">
+                                            <span>50</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="donate__item_controls">
+                            <div class="donate__item_price">
+                                <span class="donate__item_price_title">Цена:</span>
+                                <div class="donate__item_price_wrap">
+                                    <span>400</span>
+                                    <img src="./img/dollar.webp" alt="dollar">
+                                </div>
+                            </div>
+                            <button class="btn_2 donate__item_buy">Купить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="tooltip warning">Warning</div>
+    <div class="tooltip success">Success</div>
+    <button class="mute_btn active"></button>
+
+    <!-- ================================================ -->
+    <audio id="bgFx" src="./sounds/bg.mp3"></audio>
+    <audio id="rotateFx" src="./sounds/rotate.mp3"></audio>
+    <audio id="winFx" src="./sounds/win.mp3"></audio>
+    <audio id="loseFx" src="./sounds/lose.wav"></audio>
+    <audio id="shopFx" src="./sounds/shop.mp3"></audio>
+    <audio id="listFx" src="./sounds/list.mp3"></audio>
+    <!-- ================================================ -->
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>
